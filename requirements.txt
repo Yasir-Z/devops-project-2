@@ -1,0 +1,4 @@
+pytest      # For Unit & Integration Testing
+flake8      # For Linting
+black       # For Formatting
+bandit      # For Static Analysis (Security)

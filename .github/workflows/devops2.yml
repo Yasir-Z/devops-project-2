@@ -1,0 +1,16 @@
+name: devops-project-2
+on: push
+  jobs:
+    devops2 pipeline 
+
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code 
+          uses: actions/checkout@v4
+
+
+        - name: Set-up python
+          run: actions/setup-python@v4
+
+        - name: Install dependencies
+          run: pip install -r requirements.txt
