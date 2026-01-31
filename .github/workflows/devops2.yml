@@ -21,4 +21,4 @@ jobs:
         run: black --check .
 
       - name: Linting Test
-        run: Flake8
+        run: flake8 .
