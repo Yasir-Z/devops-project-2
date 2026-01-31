@@ -20,3 +20,5 @@ jobs:
       - name: Formatting test
         run: black --check .
 
+      - name: Linting Test
+        run: Flake8
