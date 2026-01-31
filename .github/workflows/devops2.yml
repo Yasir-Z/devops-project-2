@@ -22,3 +22,6 @@ jobs:
 
       - name: Linting Test
         run: flake8 .
+
+      - name: Static Analysis Security Test (Bandit)
+        run: bandit -r .
