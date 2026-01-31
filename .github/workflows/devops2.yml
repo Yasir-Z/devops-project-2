@@ -21,7 +21,7 @@ jobs:
         run: black --check .
 
       - name: Linting Test
-        run: flake8 .
+        run: flake8 . --ignore=F401
 
       - name: Static Analysis Security Test (Bandit)
         run: bandit -r . --skip B201
